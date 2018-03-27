@@ -4,7 +4,7 @@ import time
 f = None
 
 try:
-    f = open("../io/poem.txt")
+    f = open("poem.txt")
     while True:
         line = f.readline()
         if len(line) == 0:
